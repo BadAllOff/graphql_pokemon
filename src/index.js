@@ -27,6 +27,13 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+  .container {
+    display: flex;
+    max-width: 550px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 `;
 
 ReactDOM.render(
